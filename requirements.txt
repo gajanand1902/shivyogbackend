@@ -4,3 +4,4 @@ python-dotenv
 chromadb
 fastembed
 groq
+gunicorn
