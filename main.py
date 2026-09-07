@@ -21,7 +21,7 @@ load_dotenv()
 
 EMBEDDING_MODEL = os.getenv(
     "EMBEDDING_MODEL",
-    "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+    "BAAI/bge-small-en-v1.5"
 )
 
 CHROMA_PATH = os.getenv(
