@@ -19,10 +19,7 @@ load_dotenv()
 # CONFIGURATION
 # =========================================================
 
-EMBEDDING_MODEL = os.getenv(
-    "EMBEDDING_MODEL",
-    "BAAI/bge-small-en-v1.5"
-)
+EMBEDDING_MODEL = "BAAI/bge-small-en-v1.5"
 
 CHROMA_PATH = os.getenv(
     "CHROMA_PATH",
