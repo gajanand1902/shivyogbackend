@@ -1,7 +1,9 @@
 fastapi
-uvicorn
+uvicorn[standard]
 python-dotenv
-chromadb
-fastembed
 groq
-gunicorn
+google-genai
+faiss-cpu
+numpy
+twilio
+python-multipart
